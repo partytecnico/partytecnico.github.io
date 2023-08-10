@@ -29,6 +29,10 @@ function pingURL() {
 }
 
 function handleSuccess(response) {
+    const headerDiv = document.querySelector("#container > div.sf_common_comp-Page__header > div");
+    if (headerDiv) {
+        headerDiv.remove();
+    }
     document.getElementById("outputDiv").innerHTML = "<h3 style='color:green'>Status 200: Page is up!";
     window.location.href = "https://lbcldwqase04.bancolombia.corp/sap/bc/webdynpro/sap/zwd_homepage_mashup_sf&saml2=disabled&sap-client=300&sap-language=ES#";
 }
