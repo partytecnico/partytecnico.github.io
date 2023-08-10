@@ -22,16 +22,13 @@
    <h2 style="color:blue">
      Grupo Bancolombia.
    </h2>
-   <label for="url">
-      Ingresa una URL para ir:   </label><br>
-   <input type="text" id="url"name="url" style="margin: 10px; width: 50%;"><br>
-   <input type="submit" value="Autoservicio TEST de empleados"onclick="pingURL()">
+
    <div id="outputDiv"></div>
 </body>
    <script>
       function pingURL() {
          // Getting the URL from the User
-         var URL = $("#url").val();
+         var URL = "https://lbcldwqase04.bancolombia.corp/sap/bc/webdynpro/sap/zwd_homepage_mashup_sf#";
          var settings = {
             // Defining the request configuration
             cache: false,
