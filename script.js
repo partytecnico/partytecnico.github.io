@@ -11,7 +11,7 @@ function pingURL() {
         crossDomain: true,
         url: URL,
         method: "GET",
-        timeout: 5000,
+        timeout: 10000,
         headers: {
             accept: "application/json",
             "Access-Control-Allow-Origin": "*",
