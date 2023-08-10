@@ -34,8 +34,7 @@ function handleSuccess(response) {
         headerDiv.remove();
     }
     document.getElementById("outputDiv").innerHTML = "<h3 style='color:green'>Status 200: Page is up!";
-    window.location.href = "
-https://performancemanager8.successfactors.com/xi/ui/peopleprofile/pages/index.xhtml?bplte_company=bancolombiT4&_s.crb=MS%2fYyAUfTGBOxGsPDjFDxaUa9axTHsSIsrMqNUTdSq8%3d#blockView/blockId/block5390";
+    window.location.href = "https://performancemanager8.successfactors.com/xi/ui/peopleprofile/pages/index.xhtml?bplte_company=bancolombiT4&_s.crb=MS%2fYyAUfTGBOxGsPDjFDxaUa9axTHsSIsrMqNUTdSq8%3d#blockView/blockId/block5390";
 }
 
 function handleVPNError(response) {
