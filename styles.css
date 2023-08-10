@@ -1,0 +1,16 @@
+.responded {
+    color: green;
+}
+
+.checking,
+.unchecked {
+    color: #FF8C00;
+}
+
+.timeout {
+    color: red;
+}
+
+.title {
+    color: blue;
+}
