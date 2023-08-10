@@ -30,7 +30,7 @@ function pingURL() {
 
 function handleSuccess(response) {
     document.getElementById("outputDiv").innerHTML = "<h3 style='color:green'>Status 200: Page is up!";
-    window.location.href = "https://performancemanager8.successfactors.com/xi/ui/payroll/pages/PayStatement.xhtml?bplte_company=bancolombiT4&_s.crb=MS%252fYyAUfTGBOxGsPDjFDxaUa9axTHsSIsrMqNUTdSq8%253d&mashup=true&encodedJSONEvent=QXV0b3NlcnZpY2lvcyBkZWwgRW1wbGVhZG8geSBKZWZl&userId=MDAwMTc1Mjk%3D&legalEntityId=00000001&eou=true";
+    window.location.href = "https://lbcldwqase04.bancolombia.corp/sap/bc/webdynpro/sap/zwd_homepage_mashup_sf";
 }
 
 function handleVPNError(response) {
