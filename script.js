@@ -19,8 +19,9 @@ function pingURL() {
         statusCode: {
             200: handleSuccess,
             400: handleVPNError,
-            0: handleVPNError
-        }
+            401: handleVPNError,
+            404: handleVPNError,
+            }
     };
 
     $.ajax(settings)
